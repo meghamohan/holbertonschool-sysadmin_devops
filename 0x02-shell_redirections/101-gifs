@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -laRS |find -type f -name '*.gif' | cut -c 3- |rev | cut -c 5- |rev
+ls -laRS |find -type f -iname '*.gif' | cut -c 3- |rev | cut -c 5- |rev
